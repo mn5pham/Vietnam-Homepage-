@@ -8,19 +8,20 @@
       body {
         margin: 0;
         font-family: Arial, sans-serif;
-        padding-top: 80px;
+        padding-top: 60px;
       }
       
       header {
-      padding-left: 40px;
+      margin: 40px;
       font-size: 35px;
+      color: E3C6D3;
       width: 100%;
       }
       
       ul {
         list-style-type: none;
-        margin: 0;
-        padding: 30px;
+        margin: 20;
+        padding: 10px;
         overflow: hidden;
       }
       
@@ -41,32 +42,52 @@
       
       .gallery-container {
       display: flex;
-      overflow-x: scroll;
-      padding: 10px;
-      padding-left: 50px;
+      overflow-x: hidden;
+      padding-left: 45px;
     }
 
     .gallery-item {
-      margin-right: 20px;
+      margin-right: 5px;
+      width: 500px; 
+      height: 330px;
+      border-radius: 20px;
+      
     }
+      
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 20px;
+      }
 
     h2 {
-      padding: 45px;
+      padding-left: 45px;
     }
       
       .description {
         color: black;
+        width: 50%;
         padding-left: 40px;
-      }
-      
-      .header-image {
-        text-align: ;
       }
 
       .header-image img {
-        max-width: 100%; /* Ensure the image doesn't exceed its container */
+        padding-left: 30px;
+        width: 300px; 
       }
       
+      /* Added styles for the footer */
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+  
         
   </style>
 	</head>
@@ -75,10 +96,11 @@
     
     <!-- Image above the header -->
     <div class="header-image">
-      <img src="your-image.jpg" alt="Header Image">
+      <img src="Mary's travel Guide.png" alt="Header Image">
     </div>
     
     <header>
+      
     <h1>Vietnam</h1>
   </header>
     
@@ -98,17 +120,22 @@
 
   <div class="gallery-container">
     <div class="gallery-item">
-      <img src="image1.jpg" alt="Vietnam Image 1">
+      <img src="Kinh 5.jpg" alt="Vietnam Image 1">
     </div>
     <div class="gallery-item">
-      <img src="image2.jpg" alt="Vietnam Image 2">
+      <img src="Da Nang.jpg" alt="Vietnam Image 2">
     </div>
     <div class="gallery-item">
-      <img src="image3.jpg" alt="Vietnam Image 3">
+      <img src="Hoi An.jpg" alt="Vietnam Image 3">
     </div>
     <!-- Add more images as needed -->
     
   </div>
+    
+    <!-- Footer with email link -->
+    <footer>
+      <p>Contact me: <a href="mailto:mn5pham@uwaterloo.ca">mn5pham@uwaterloo.ca</a></p>
+    </footer>
     
   </body>
 </html>
