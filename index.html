@@ -4,19 +4,22 @@
     <title>HOME PAGE</title>
     <meta charset="utc-8">
     <style>
+      
       body {
         margin: 0;
         font-family: Verdana, sans-serif;
         padding-top: 60px;
-        margin-bottom: 120px;
+        margin-bottom: 120px; /* Add space at the bottom to avoid overlap with footer */
       }
-
+      
+      /* Styling for the main heading */
       header {
         margin: 40px;
         font-size: 55px;
         color: #E3C6D3;
       }
-
+      
+      /* Styling for the navigation menu */
       ul {
         list-style-type: none;
         padding: 10px;
@@ -34,11 +37,11 @@
         font-size: 23px;
         text-decoration: none;
       }
-
+      
       li a:link {
         color: black;
       }
-
+      
       li a:visited {
         color: gray;
       }
@@ -51,13 +54,15 @@
       li a:active {
         color: red;
       }
-
+      
+      /* Styling for the image gallery container */
       .gallery-container {
         display: flex;
         overflow-x: hidden;
         padding-left: 45px;
       }
-
+      
+      /* Styling for each gallery item */
       .gallery-item {
         margin-right: 5px;
         position: relative;
@@ -66,14 +71,16 @@
         border-radius: 20px;
 
       }
-
+      
+      /* Styling for gallery item images */
       .gallery-item img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         border-radius: 20px;
       }
-
+      
+      /* Styling for main headings */
       h1 {
         margin: 0;
         margin-bottom: -10px;
@@ -90,7 +97,8 @@
         font-size: 30px;
         padding-left: 45px;
       }
-
+      
+      /* Styling for paragraphs */
       p {
         padding-left: 45px;
       }
@@ -99,13 +107,15 @@
         font-size: 20px;
         width: 85%;
       }
-
+      
+      /* Styling for the header image */
       .header-image img {
         padding-left: 30px;
         width: 300px;
         margin-bottom: -60px;
       }
-
+      
+      /* Styling for the footer */
       footer {
         background-color: #E3C6D3;
         text-align: center;
@@ -132,13 +142,13 @@
   </head>
 
   <body>
-
+    
+    <!-- Header image at the top of the page -->
     <div class="header-image">
       <img src="Mary's travel Guide.png" alt="Header Image">
     </div>
 
     <header>
-
       <h1>Vietnam</h1>
     </header>
 
@@ -146,7 +156,8 @@
       <p> Explore the beauty and culture of Vietnam with me
         as I take you along to discover exciting destinations, delicious food, and cherished memories from my family trip this summer.</p>
     </div>
-
+    
+    <!-- Navigation menu -->
     <ul>
       <li><a href="https://mn5pham.github.io/Vietnam-Homepage-/"><strong>HOME</strong></a></li>
       <li><a href="https://mn5pham.github.io/Vietnam-Destinations/"><strong>DESTINATIONS</strong></a></li>
@@ -155,7 +166,9 @@
     </ul>
     <h2>Vietnam Travel</h2>
 
+    <!-- Image gallery container -->
     <div class="gallery-container">
+      <!-- Gallery items with images -->
       <div class="gallery-item">
         <img src="Kinh 5.jpg" alt="Vietnam Image 1">
       </div>
@@ -169,8 +182,9 @@
     </div>
 
     <h3>Vietnam Weather</h3>
-    <p>Wondering when you should plan your trip for Vietnam? I would recommend the winter season!</p>
+    <p>Wondering when you should plan your trip to Vietnam? I would recommend the winter season!</p>
 
+    <!-- Weather information table -->
     <table style="width:95%">
       <tr>
         <th>Region</th>
@@ -194,6 +208,7 @@
       </tr>
     </table>
 
+    <!-- Footer section with contact information -->
     <footer>
       <p>Have any questions?</p>
       <p>Email me at: <a href="mailto:mn5pham@uwaterloo.ca">mn5pham@uwaterloo.ca</a></p>
